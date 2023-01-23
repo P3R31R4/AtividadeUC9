@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+
+    <p>O resultado da variavel A é: <span id="resula"></span></p>
+    <p>O resultado da variavel C é: <span id="resulc"></span></p> 
+
+    <script>
+        let a = 5000;
+        let c = "MARIA";
+
+        if((a >= 1000 && c == "MARIA")){
+            a = a + 3000;
+       }
+
+       document.getElementById("resula").innerHTML = a
+       document.getElementById("resulc").innerHTML = c
+
+    </script>
+</body>
+</html>

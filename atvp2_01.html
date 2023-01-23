@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATV parte2 exer01</title>
+</head>
+
+<body>
+    <h1>Par ou impar</h1>
+<div id="resul"></div>
+
+    <script>
+        let num1 = Number(prompt("Digite um número."));
+
+        if(num1 % 2 == 0){
+            resul = num1 + " é um número par.";
+        }else{
+            resul = num1 + " é um número impar.";
+        } 
+        
+        document.getElementById("resul").innerHTML = resul
+    </script>
+    
+</body>
+</html>

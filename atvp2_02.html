@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atv parte2 exer02</title>
+</head>
+<body>
+    <h1>Diferença entre valores</h1>
+
+<div id="msg"></div>
+
+    <script>
+        let num1 = Number(prompt("Digite um número."))
+        let num2 = Number(prompt("Digite outro número."))
+        let conta1 = num1 - num2
+        let conta2 = num2 - num1
+
+        if(num1 > num2){
+            msg = "A diferença entre " + num1 + " e " + num2 + " é " + conta1 + ".";
+        }else{
+            msg = "A diferença entre " + num1 + " e " + num2 + " é " + conta2 + ".";
+        }
+
+        document.getElementById("msg").innerHTML = msg
+         
+    </script>
+
+    
+</body>
+</html>
